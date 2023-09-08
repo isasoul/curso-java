@@ -51,7 +51,7 @@ public class App {
         System.out.println("la altura es: " + altura);
 
         
-*/
+
         Scanner entrada = new Scanner(System.in);
 
         int numero1;
@@ -72,7 +72,23 @@ public class App {
         System.out.println("la resta es: " + resta);
         System.out.println("la multiplicacion es: " + multiplicacion);
         System.out.println("la division es: " + division );
-        //https://www.youtube.com/watch?v=GSwwyuFlUVE&list=PL_8FSlpwPBDkTIwCGBw0W6QpoxKMdzuPd&index=9 concatenacion de variables 
+
+*/
+        //concatenacion de variables 
+
+        Scanner entrada = new Scanner (System.in);
+
+        int num1;
+
+        System.out.println("ingrese primer numero: ");
+
+        num1 = entrada.nextInt();
+
+        num1 += num1 + 3;
+
+        System.out.println("el numero es: " + num1);
+
+
 
 
     }
